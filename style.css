@@ -95,6 +95,7 @@ a {
 .header-social {
 	display: flex;
 	gap: 15px;
+	flex-wrap: wrap;
 }
 .header-social a {
 	display: flex;
@@ -201,10 +202,22 @@ a {
 		width: unset;
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
+	.section-links a {
+		flex-direction: row;
+		gap: 30px;
+	}
+	.section-links a h3 {
+		width: 100px;
+	}
+}
+@media only screen and (max-width: 350px) {
 	.section-links a {
 		flex-direction: column;
 		gap: 5px;
+	}
+	.section-links a h3 {
+		width: unset;
 	}
 }
 
