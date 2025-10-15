@@ -147,8 +147,8 @@ a {
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	border: 1px solid rgba(0,0,0,.1);
-	padding: calc(.2em + 5px) calc(15px - .1em) 5px 15px;
-	line-height: 1em;
+	padding: calc(.2em + 4px) calc(15px - .1em) 4px 15px;
+	line-height: 1.2em;
 	font-variation-settings: "wght" 750, "SRFF" 0;
 	font-weight: 750;
 	transition: background-color .1s, color .1s, opacity .1s;
