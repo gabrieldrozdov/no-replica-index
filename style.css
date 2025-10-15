@@ -149,8 +149,8 @@ a {
 	border: 1px solid rgba(0,0,0,.1);
 	padding: calc(.2em + 4px) calc(15px - .1em) 4px 15px;
 	line-height: 1.2em;
-	font-variation-settings: "wght" 750, "SRFF" 0;
-	font-weight: 750;
+	font-variation-settings: "wght" 700, "SRFF" 0;
+	font-weight: 700;
 	transition: background-color .1s, color .1s, opacity .1s;
 }
 .header-nav a:hover {
@@ -173,8 +173,8 @@ a {
 	position: sticky;
 	top: 0;
 	padding: calc(.2em + 5px) calc(30px - .1em) 5px 30px;
-	font-variation-settings: "wght" 750, "SRFF" 0;
-	font-weight: 750;
+	font-variation-settings: "wght" 700, "SRFF" 0;
+	font-weight: 700;
 	font-size: 10px;
 	line-height: 1em;
 	background-color: var(--white);
@@ -186,7 +186,7 @@ a {
 }
 .section-desc {
 	padding: .2em calc(30px - .1em) 30px 30px;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.4em;
 	text-wrap: pretty;
 }
@@ -214,7 +214,7 @@ a {
 	padding: 15px 30px 15px 30px;
 	gap: 20px;
 	transition: opacity .1s, color .1s, background-color .1s;
-	align-items: center;
+	align-items: start;
 	color: var(--black);
 }
 .section-link[data-active="1"] {
@@ -239,13 +239,12 @@ a {
 }
 .section-link-info {
 	position: relative;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.4em;
 	text-wrap: pretty;
-	padding-top: .2em;
 	display: flex;
 	flex-direction: column;
-	gap: 2px;
+	gap: 3px;
 }
 .section-links a:nth-last-child(1) {
 	border-bottom: unset;
@@ -253,7 +252,7 @@ a {
 .section-link-info h3 {
 	font-variation-settings: "wght" 600, "SRFF" 0;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.4em;
 	flex-shrink: 0;
 	text-wrap: balance;
@@ -268,6 +267,26 @@ a {
 	text-wrap: pretty;
 	opacity: .25;
 	transition: opacity .1s;
+}
+.section-link-info ul {
+	list-style: none;
+	font-size: 8px;
+	letter-spacing: .1em;
+	line-height: 1em;
+	font-variation-settings: "wght" 650, "SRFF" 0;
+	font-weight: 650;
+	text-transform: uppercase;
+	opacity: .25;
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px 10px;
+}
+.section-link-info ul li {
+	/* background-color: var(--black); */
+	color: var(--black);
+	/* padding: .4em .9em .2em 1em; */
+	border-radius: 10px;
 }
 .section-link:hover .section-link-info h3::after {
 	color: var(--white);
@@ -292,7 +311,7 @@ a {
 	text-wrap: balance;
 	background: var(--background-dark);
 	padding: calc(.2em + 30px) calc(30px - .1em) 30px 30px;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.4em;
 	text-wrap: pretty;
 	color: var(--white);
@@ -323,7 +342,7 @@ a {
 	text-align: center;
 }
 .preview-text {
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.2em;
 	opacity: .25;
 	transition: opacity .2s;
@@ -339,7 +358,7 @@ a {
 	width: 100%;
 	opacity: 0;
 	transition: opacity .2s;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.2em;
 	padding: 30px;
 	max-width: 320px;
