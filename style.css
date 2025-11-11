@@ -146,7 +146,8 @@ a {
 	color: var(--black);
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	border: 1px solid rgba(0,0,0,.1);
+	background-color: rgba(0,0,0,.05);
+	/* border: 1px solid rgba(0,0,0,.1); */
 	padding: calc(.2em + 4px) calc(15px - .1em) 4px 15px;
 	line-height: 1.2em;
 	font-variation-settings: "wght" 700, "SRFF" 0;
@@ -175,12 +176,12 @@ a {
 	padding: calc(.2em + 5px) calc(30px - .1em) 5px 30px;
 	font-variation-settings: "wght" 700, "SRFF" 0;
 	font-weight: 700;
-	font-size: 10px;
+	font-size: 24px;
 	line-height: 1em;
 	background-color: var(--white);
 	z-index: 1;
-	letter-spacing: .1em;
-	text-transform: uppercase;
+	/* letter-spacing: .1em; */
+	/* text-transform: uppercase; */
 	width: 100%;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
